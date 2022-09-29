@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prod
+  servlet:
+    multipart:
+      max-file-size: 200MB    #单个文件 大小限制
+      max-request-size: 600MB # 连续上传文件 大小限制
+
+# 管理员信息
+admin:
+  username: Admin
+  password: admin123

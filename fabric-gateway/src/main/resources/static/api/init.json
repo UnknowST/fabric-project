@@ -1,0 +1,54 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "pages/welcome.html"
+  },
+  "logoInfo": {
+    "title": "BLOCK CHAIN",
+    "image": "images/blockchain.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "用户功能",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "图片存证",
+          "href": "pages/uploadimg.html",
+          "icon": "fa fa-cloud-upload",
+          "target": "_self"
+        },
+        {
+          "title": "存证列表",
+          "href": "pages/cerlist.html",
+          "icon": "fa fa-reorder",
+          "target": "_self"
+        },
+        {
+          "title": "修改信息",
+          "href": "",
+          "icon": "fa fa-paper-plane",
+          "target": "_self",
+          "child": [
+            {
+              "title": "修改密码",
+              "href": "pages/modifpassw.html",
+              "icon": "fa fa-pencil",
+              "target": "_self"
+            },
+            {
+              "title": "账号记录",
+              "href": "pages/userhistory.html",
+              "icon": "fa fa-table",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}
